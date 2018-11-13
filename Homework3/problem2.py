@@ -15,4 +15,6 @@ def type_prime_numbers(number):
 
 
 number = input("Please enter a number:")
-print(type_prime_numbers(number))
+primes = type_prime_numbers(number)
+for p in range(len(primes)):
+    print(primes[p], end=" ")
